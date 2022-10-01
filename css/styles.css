@@ -16,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--second-color);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .list {
@@ -49,6 +49,7 @@ body {
 
 .header-link {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-color);
@@ -62,18 +63,20 @@ body {
   color: var(--brand-color);
 }
 
-.header-tel {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--contacts-color);
-}
-
 .header-mail {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+}
+
+.header-tel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--contacts-color);
 }
 
 /* -------------------INDEX HERO------------------- */
@@ -164,6 +167,7 @@ body {
 
 .team-name-surname {
   font-size: 16px;
+  font-weight: 500;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
@@ -172,12 +176,11 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: --contacts-color;
+  color: var(--contacts-color);
   margin: 10px auto 30px auto;
 }
 
@@ -190,6 +193,7 @@ body {
   padding: 6px 22px;
   font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
