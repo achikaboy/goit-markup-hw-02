@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #212121;
+  font-weight: 500;
 }
 
 .list {
@@ -19,7 +20,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31/26);
+  line-height: calc(31 / 26);
   /* identical to box height */
   letter-spacing: 0.03em;
 }
@@ -33,7 +34,6 @@ body {
 }
 
 .header-link {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -41,7 +41,6 @@ body {
 }
 
 .header-link:hover {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -49,7 +48,6 @@ body {
 }
 
 .header-tel {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -57,26 +55,143 @@ body {
 }
 
 .header-mail {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
-/* -------------------HERO------------------- */
+/* -------------------INDEX HERO------------------- */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
 .hero-button {
-  font-family: inherit;
-  font-weight: 500;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 32px;
+
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* -------------------INDEX BENEFITS------------------- */
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.benefits-after-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* -------------------INDEX WEDOING------------------- */
+
+.wedoing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
-.hero-title {
+/* -------------------INDEX TEAM------------------- */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-item {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-name-surname {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 30px auto 10px auto;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 10px auto 30px auto;
+}
+
+/* -------------------PORTFOLIO------------------- */
+
+.portfolio-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  padding: 6px 22px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.portfolio-button:hover {
+  background: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -84,7 +199,7 @@ body {
   color: #212121;
 }
 
-.hero-after-title {
+.portfolio-after-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -93,6 +208,14 @@ body {
 }
 
 /* -------------------FOOTER------------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-adress {
+  font-style: normal;
+}
 
 .footer-location {
   font-weight: 400;
@@ -114,14 +237,14 @@ body {
 }
 
 .footer-logo {
-font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31/26);
+  line-height: calc(31 / 26);
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .footer-logo-color-one {
