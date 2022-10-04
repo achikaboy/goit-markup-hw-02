@@ -28,6 +28,12 @@ body {
   text-decoration: none;
 }
 
+.h-invis{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 /* -------------------HEADER------------------- */
 
 .logo {
